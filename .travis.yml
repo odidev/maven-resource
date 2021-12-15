@@ -13,4 +13,4 @@ before_script:
 
 script:
   - docker login -u abhishek138 -p abhishek138
-  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/maven_resource:latest --push .2> /dev/null;
+  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/maven_resource:latest --push . 2> /dev/null;
